@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/channel_address" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/default_podcast_address"
+            android:id="@+id/channel_address" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/add_new_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFeedList" />
+</LinearLayout>

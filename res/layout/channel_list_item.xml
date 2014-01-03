@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channelItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <TextView
+                android:paddingLeft="5sp"
+                android:ellipsize="marquee"
+                android:id="@+id/txtChannelTitle"
+                android:textSize="14sp"
+                android:text="Channel Title here"
+                android:layout_width="fill_parent"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2sp" />
+
+            <Button
+                android:id="@+id/btnDeleteChannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/ic_delete"
+                android:layout_gravity="center" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/LinearLayout1"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Audio:"
+            android:id="@+id/TextView04"
+            android:layout_margin="3sp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_width="wrap_content"
+            android:text="Counter"
+            android:id="@+id/txtPodcastAudioCounter"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView02"
+            android:layout_margin="3sp"
+            android:layout_width="wrap_content"
+            android:text="Video:"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_width="wrap_content"
+            android:text="Counter"
+            android:id="@+id/txtPodcastVideoCounter"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:text="Other:"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_width="wrap_content"
+            android:text="Counter"
+            android:id="@+id/txtPodcastOtherCounter"
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Podcast Reader</string>
+    <string name="activity_channels">Simple Podcast Reader: Channels</string>
+    <string name="activity_podcasts">Simple Podcast Reader: Podcasts</string>
+    <string name="activity_add_channel">Simple Podcast Reader: Add channel</string>
+    <string name="activity_podcast_description">Simple Podcast Reader: Post description</string>
+    <string name="main_no_items">No posts</string>
+    <string name="post_list_title">Title: </string>
+    <string name="post_list_pubDate">Publish date: </string>
+    <string name="post_list_download">Download</string>
+    <string name="post_list_play">Play</string>
+    <string name="podcast_list_delete">Delete</string>
+    <string name="podcast_list_details">See details</string>
+    <string name="podcast_list_play_and_next">Play &amp; next</string>
+    <string name="podcast_list_play_and_prev">Play &amp; previous</string>
+    <string name="progress_dialog_please_wait">Please wait...</string>
+    <string name="progress_list_retrieving_data">Retrieving data ...</string>
+    <string name="progress_dialog_downloading">Downloading</string>
+    <string name="progress_dialog_downloading_file">Downloading file</string>
+    <string name="channel_address">Address: </string>
+    <string name="default_podcast_address">http://feeds.feedburner.com/&lt;Channel name&gt;</string>
+    <string name="go_feeds_list">Go</string>
+    <string name="update_and_go_feeds_list">Go &amp; update</string>
+    <string name="no_channels">No channels</string>
+    <string name="channel_menu_item_new">New Channel</string>
+    <string name="add_new_channel">Add new channel</string>
+    <string name="error_maybe_the_address_is_not_correct_">Error, maybe the address is not correct.</string>
+    <string name="delete_channel">Delete</string>
+    <string name="update_channel">Update channel</string>
+    <string name="existing_channel">"There's a channel with the same address"</string>
+    <string name="channel_added">: A new channel was added</string>
+    <string name="podcastDescription">Description</string>
+    <string name="deletePodcastQuestion">Do you really want to delete this podcast?</string>
+    <string name="podcast_address">Address</string>
+    <string name="podcast_list_more_actions">More actions</string>
+    <string name="podcast_list_error_downloaing_podcast">"There's problems downloading this element"</string>
+    <string name="podcast_list_downloading">The podcast is downloading</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:stretchColumns="0"
+        android:id="@+id/mediaPlayerControl"
+        android:visibility="gone"
+        android:background="#99FFD700"
+        android:layout_height="50sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:id="@+id/podcastTitle"
+            android:layout_gravity="center"
+            android:textColor="#ffffffff"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:isScrollContainer="true" />
+
+        <TableRow>
+
+            <SeekBar
+                android:layout_marginRight="5sp"
+                android:id="@+id/sbMediaPlayer"
+                android:layout_marginLeft="5sp"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+
+            <Button
+                android:gravity="right"
+                android:id="@+id/btnPlayStop"
+                android:layout_height="30sp"
+                android:layout_width="40sp"
+                android:background="@android:drawable/ic_media_pause" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/main_no_items" />
+</LinearLayout>
